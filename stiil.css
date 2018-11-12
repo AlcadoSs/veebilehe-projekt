@@ -60,11 +60,12 @@ h2
 
 #logo
     {
-    width: 910px;
-    position: relative;
-    height: 100px;
+    width: 430px;
+    float: left;
+    height: 80px;
     background: transparent;
-    padding: 10px 0 10px 0;
+    padding: 0 20px 0 20px;
+    text-align:center;
     }
 
 #logo h1
@@ -72,7 +73,7 @@ h2
     font: normal 300% 'trebuchet ms', arial, sans-serif;
     border-bottom: 0;
     text-transform: none;
-    margin: 0 0 0 9px;
+    margin: 0 0 0 0;
     }
 
 #logo h2
@@ -86,9 +87,10 @@ h2
 #logo_tekst h1 a
     {
     padding: 0 0 0 0;
-    color: #A8AA94;
+    color: white;
     letter-spacing: 16px;
     text-decoration: none;
+    border-color: rgba(0,0,0,0.5);
     }
 
 #logo_tekst h2
@@ -100,24 +102,26 @@ h2
 
 #menüütaust
     {
-    height: 46px;
+    height: 60px;
     width: 950px;
-    margin: 0 auto 0 auto;
+    margin: auto;
     background-color:rgba(0, 0, 0, 0);
     }
 
 ul#menüü
     {
     float: left;
-    margin: 0;padding: 0;
+    margin: 10px;
+    padding: 0;
+    background-color:rgba(0, 0, 0, 0.5)
     }
 
 ul#menüü li
     {
     float: left;
-    padding: 0 0 0 6px;
+    padding: 0 0 0 0;
     list-style: none;
-    margin: 0 2px 0 0;
+    margin: 0 0 0 0;
     }
 
 ul#menüü li a
@@ -142,3 +146,37 @@ ul#menüü li a:hover:not(.active)
     {
     background-color: #636363;
     }
+
+ul#menüü2
+{
+    float: right;
+    margin: 10px;
+    padding: 0;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+
+ul#menüü2 li
+{
+    float: left;
+    padding: 0 0 0 0;
+    list-style: none;
+    margin: 0 0 0 0;
+}
+
+ul#menüü2 li a
+{
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    float: left;
+    height: 27px;
+    padding: 12px 28px 5px 22px;
+    text-align: center;
+    color: #FFF;
+    border-right: 1px solid black;
+    text-decoration: none;
+}
+
+ul#menüü2 li a:hover:not(.active)
+{
+    background-color: #B60000;
+}

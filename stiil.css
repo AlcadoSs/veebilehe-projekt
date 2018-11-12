@@ -3,7 +3,7 @@ body
     background: #646557 url(pildid/taust.png) repeat fixed;
     color: #5D5D5D;}
 p
-{ padding: 0 0 15px 0;
+{ padding: 0 0 0 0;
     line-height: 24px;}
 
 h1
@@ -29,7 +29,7 @@ h2
 
 #sisu
 { text-align: left;
-    width: 655px;
+    width: 925px;
     padding: 15px 0 20px 0;
     margin: 0;}
 
@@ -69,6 +69,12 @@ h2
     padding: 4px 0 0 0;
     color: #A8AA94;}
 
+#menüütaust
+{ height: 46px;
+    width: 950px;
+    margin: 1px auto 0 auto;
+    background: transparent url(pildid/menüütaust.png);}
+
 ul#menüü
 { float: left;
     margin: 0;padding: 0;}
@@ -89,7 +95,6 @@ ul#menüü li a
     color: #FFF;
     border-right: 1px solid #636363;
     text-decoration: none;}
-
 
 
 

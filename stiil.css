@@ -96,5 +96,12 @@ ul#menüü li a
     border-right: 1px solid #636363;
     text-decoration: none;}
 
+ul#menüü a:hover
+{ background-color: #636363}
 
-
+ul#menüü li a:hover:not(.active) {
+    background-color: #B60000;
+}
+.active{
+    background-color: #636363;
+}

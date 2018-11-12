@@ -1,107 +1,144 @@
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-    background: #646557 url(pildid/taust.png) repeat fixed;
-    color: #5D5D5D;}
+    {
+    font-size: .80em;
+    font-family: 'trebuchet ms', arial, sans-serif;
+    background: url(pildid/taust.png) rgba(0,0,0,0.5) repeat fixed;
+    background-blend-mode: color-burn;
+    }
 p
-{ padding: 0 0 0 0;
-    line-height: 24px;}
+    {
+    padding: 0 0 0 0;
+    line-height: 24px;
+    color: white;
+    }
 
 h1
-{ font: normal 175% 'trebuchet ms', arial, sans-serif;
-    color: #43423F;
+    {
+    font: normal 175% 'trebuchet ms', arial, sans-serif;
+    color: white;
     margin: 0 0 15px 0;
-    padding: 5px 0 5px 0;}
+    padding: 5px 0 5px 0;
+    }
 
 h2
-{ font: normal 175% 'trebuchet ms', arial, sans-serif;
+    {
+    font: normal 175% 'trebuchet ms', arial, sans-serif;
     color: #B60000;
-    padding: 15px 0 5px 0;}
+    padding: 15px 0 5px 0;
+    }
 
 #sisu_asukoht
-{ width: 925px;
+    {
+    width: 925px;
     overflow: hidden;
     margin: 44px auto 0 auto;
-    padding: 10px 0 0 25px;
-    background: #EEE;
+    padding: 20px 0 0 25px;
     border-top: 0;
     border-bottom: 0;
-    color: #5D5D5D;}
+    color: #5D5D5D;
+    }
 
 #sisu
-{ text-align: left;
+    {
+    text-align: left;
     width: 925px;
     padding: 15px 0 20px 0;
-    margin: 0;}
+    margin: 0;
+    }
 
 #main
-{ width: 950px;
-    margin: 20px auto;}
+    {
+    width: 950px;
+    margin: 20px auto;
+    }
 
 #header
-{ width: 950px;
-    height: 121px;}
+    {
+    width: 950px;
+    height: 121px;
+    }
 
 #logo
-{ width: 910px;
+    {
+    width: 910px;
     position: relative;
     height: 100px;
     background: transparent;
-    padding: 10px 0 10px 0;}
+    padding: 10px 0 10px 0;
+    }
 
 #logo h1
-{ font: normal 300% 'trebuchet ms', arial, sans-serif;
+    {
+    font: normal 300% 'trebuchet ms', arial, sans-serif;
     border-bottom: 0;
     text-transform: none;
-    margin: 0 0 0 9px;}
+    margin: 0 0 0 9px;
+    }
+
 #logo h2
-{ font: normal 300% 'trebuchet ms', arial, sans-serif;
+    {
+    font: normal 300% 'trebuchet ms', arial, sans-serif;
     border-bottom: 0;
     text-transform: none;
-    margin: 0 0 0 9px;}
+    margin: 0 0 0 9px;
+    }
+
 #logo_tekst h1 a
-{ padding: 0 0 0 0;
+    {
+    padding: 0 0 0 0;
     color: #A8AA94;
     letter-spacing: 16px;
-    text-decoration: none;}
+    text-decoration: none;
+    }
 
 #logo_tekst h2
-{ font-size: 120%;
+    {
+    font-size: 120%;
     padding: 4px 0 0 0;
-    color: #A8AA94;}
+    color: #A8AA94;
+    }
 
 #menüütaust
-{ height: 46px;
+    {
+    height: 46px;
     width: 950px;
-    margin: 1px auto 0 auto;
-    background: transparent url(pildid/menüütaust.png);}
+    margin: 0 auto 0 auto;
+    background-color:rgba(0, 0, 0, 0);
+    }
 
 ul#menüü
-{ float: left;
-    margin: 0;padding: 0;}
+    {
+    float: left;
+    margin: 0;padding: 0;
+    }
 
 ul#menüü li
-{ float: left;
+    {
+    float: left;
     padding: 0 0 0 6px;
     list-style: none;
-    margin: 0 2px 0 0;}
+    margin: 0 2px 0 0;
+    }
 
 ul#menüü li a
-{ font: normal 100% 'trebuchet ms', sans-serif;
+    {
+    font: normal 100% 'trebuchet ms', sans-serif;
     display: block;
     float: left;
     height: 27px;
     padding: 12px 28px 5px 22px;
     text-align: center;
     color: #FFF;
-    border-right: 1px solid #636363;
-    text-decoration: none;}
+    border-right: 1px solid black;
+    text-decoration: none;
+    }
 
-ul#menüü a:hover
-{ background-color: #636363}
-
-ul#menüü li a:hover:not(.active) {
+ul#menüü li a:hover:not(.active)
+    {
     background-color: #B60000;
-}
-.active{
+    }
+
+.active
+    {
     background-color: #636363;
-}
+    }

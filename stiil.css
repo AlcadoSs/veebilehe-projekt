@@ -7,6 +7,7 @@ body
     }
 p
     {
+    font: normal 125% 'trebuchet ms', arial, sans-serif;
     padding: 0 0 0 0;
     line-height: 24px;
     color: white;
@@ -31,7 +32,7 @@ h2
     {
     width: 925px;
     overflow: hidden;
-    margin: 44px auto 0 auto;
+    margin: 20px auto 0 auto;
     padding: 20px 0 0 25px;
     border-top: 0;
     border-bottom: 0;
@@ -144,7 +145,7 @@ ul#menüü li a:hover:not(.active)
 
 .active
     {
-    background-color: #636363;
+    background-color: #b60000;
     }
 
 #sisu li
